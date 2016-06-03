@@ -9,6 +9,7 @@ Description: Simulate data for Hierarchical Models and use many approaches for
 Imports:
     DPpackage,
     MCMCpack,
+    bayesm,
     nlme,
     mvtnorm,
     foreach
