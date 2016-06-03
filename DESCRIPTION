@@ -1,9 +1,15 @@
 Package: hlm.comparison
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Simulate HLMs and approximate parameters using different models.
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Author: Jacob Carey
+Maintainer: Jacob Carey <jacobcvt12@gmail.com>
+Description: Simulate data for Hierarchical Models and use many approaches for approximation.
+Imports:
+  DPpackage,
+  MCMCpack,
+  nlme,
+  mvtnorm,
+  foreach
+License: GPL-2.0
 LazyData: TRUE
