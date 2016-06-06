@@ -3,4 +3,5 @@
 #' @docType package
 #' @name hlm.comparison
 #' @importFrom foreach foreach %dopar%
+#' @importFrom DPpackage DPglmm
 NULL
