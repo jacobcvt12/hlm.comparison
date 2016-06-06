@@ -36,3 +36,11 @@ DP <- function() {
 
   return(fit1)
 }
+
+freq.me <- function() {
+  data(indon)
+
+  fit <- glmer(infect ~ gender + height + (1|id),
+               data=indon,
+               family=binomial(logit))
+}
