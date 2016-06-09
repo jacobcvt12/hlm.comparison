@@ -10,8 +10,9 @@ Imports:
     DPpackage,
     MCMCpack,
     bayesm,
-    nlme,
+    lme4,
     stats,
+    utils,
     mvtnorm,
     foreach
 License: GPL-2
