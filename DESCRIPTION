@@ -11,6 +11,7 @@ Imports:
     MCMCpack,
     bayesm,
     nlme,
+    stats,
     mvtnorm,
     foreach
 License: GPL-2
