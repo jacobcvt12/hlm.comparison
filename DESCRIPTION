@@ -1,11 +1,11 @@
 Package: hlm.comparison
 Type: Package
-Title: Simulate HLMs and approximate parameters using different models.
+Title: HLM approximation methods comparison
 Version: 0.1.0
 Author: Jacob Carey
 Maintainer: Jacob Carey <jacobcvt12@gmail.com>
-Description: Simulate data for Hierarchical Models and use many approaches for
-    approximation.
+Description: This package simulates data for Hierarchical Models and uses many approaches for
+    approximation. Data is simulated from a variety of mixing distributions
 Imports:
     DPpackage,
     MCMCpack,
@@ -13,6 +13,6 @@ Imports:
     nlme,
     mvtnorm,
     foreach
-License: GPL-2.0
+License: GPL-2
 LazyData: TRUE
 RoxygenNote: 5.0.1
