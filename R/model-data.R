@@ -1,6 +1,6 @@
 DP <- function() {
   # data
-  data(indon)
+  data(indon, envir=environment())
   attach(indon)
 
   baseage2<-baseage**2
@@ -38,7 +38,7 @@ DP <- function() {
 }
 
 freq.me <- function() {
-  data(indon)
+  data(indon, envir=environment())
 
   fit <- glmer(infect ~ gender + height + (1|id),
                data=indon,
