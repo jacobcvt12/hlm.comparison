@@ -4,4 +4,5 @@
 #' @name hlm.comparison
 #' @importFrom foreach foreach %dopar%
 #' @importFrom DPpackage DPglmm
+#' @importFrom mvtnorm rmvnorm
 NULL
