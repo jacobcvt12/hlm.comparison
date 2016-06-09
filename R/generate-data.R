@@ -165,21 +165,3 @@ genDataWide <- function(N, n, beta, bij)
 	value <- list(id=c(1:N), Yij=Yij, X1=X1, X2=X2, b=bij[seq(from=1, to=(N*n), by=n)])
 	return(value)
 }
-
-##
-wide2long <- function(data)
-{
-	##
-	N <- nrow(data$Yij)
-	n <- ncol(data$Yij)
-
-	##
-	Yij  <- c(data$Yij)
-	Xij1 <- rep(c(0,1), rep((N*n)/2, 2))
-	Xij2 <- rep((c(1:n)-1)/(n-1), N)
-
-	##
-	value <- as.data.frame(cbind(rep(1:N, rep(n, N)), Yij, Xij1, Xij2))
-	names(value) <- c("id", "Y", "X1", "X2")
-	return(value)
-}
