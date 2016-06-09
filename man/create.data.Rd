@@ -2,6 +2,7 @@
 % Please edit documentation in R/generate-data.R
 \name{create.data}
 \alias{create.data}
+\title{Generates random effects data}
 \usage{
 create.data(clusters, cluster.size, params.fe, params.re, G, ...)
 }
@@ -17,5 +18,12 @@ create.data(clusters, cluster.size, params.fe, params.re, G, ...)
 \item{G}{"True" mixing distribution as a character (e.g. "normal", "gamma")}
 
 \item{...}{Named parameters for the mixing distribution G}
+}
+\value{
+data.frame
+}
+\description{
+Function can generate data with random intercept and fixed slope,
+or random intercept and slope with arbitrary fixed covariates
 }
 
